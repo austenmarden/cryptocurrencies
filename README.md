@@ -22,20 +22,20 @@ The purpose of this analaysis is to create a report for, Accountability Accounti
 
 Step 1:
 
-    Clean the data by removing uneeded columns, converting all values into integers and finally standardizing the dataset into a usable format.
+-   Clean the data by removing uneeded columns, converting all values into integers and finally standardizing the dataset into a usable format.
 
 !['clean'](./images/clean.PNG)
 
 
 Step 2:
 
-    Use Principal Component Analysis to reduce the dimensions to 3 principal components.
+-   Use Principal Component Analysis to reduce the dimensions to 3 principal components.
 
 !['pca'](./images/pca.PNG)
 
 Step 3: 
 
-    Create an elbow curve and use the KMeans algorithm to predict clusters for the crypto data.
+-   Create an elbow curve and use the KMeans algorithm to predict clusters for the crypto data.
 
 !['elbow'](./images/elbow.PNG)
 
@@ -43,7 +43,7 @@ Step 3:
 
 Step 4: 
 
-    Visualize the clustered groups based on the 3 principal components created in step 2 using Plotly and HVPlot.
+-   Visualize the clustered groups based on the 3 principal components created in step 2 using Plotly and HVPlot.
 
 !['table'](./images/table.PNG)
 
